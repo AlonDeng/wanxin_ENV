@@ -1,0 +1,25 @@
+2022-05-21 00:10:24.666  WARN 2702 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2h10m45s606ms).
+2022-05-21 04:10:35.966  WARN 2702 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=4h10s981ms).
+2022-05-21 06:10:46.605  WARN 2702 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2h10s917ms).
+2022-05-21 07:58:41.745  WARN 2702 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h47m21s74ms).
+2022-05-21 07:58:58.443 ERROR 2702 --- [Apollo-EnvHealthChecker-1] c.c.f.a.portal.component.PortalSettings  : Env health check failed, maybe because of admin server down. env: DEV, meta server address: http://10.30.44.208:8080
+2022-05-21 07:58:58.460 ERROR 2702 --- [Apollo-EnvHealthChecker-1] c.c.f.a.portal.component.PortalSettings  : Env health check failed for 1 times which less than down threshold. down threshold:2, env: DEV, meta server address: http://10.30.44.208:8080
+2022-05-21 07:59:08.569 ERROR 2702 --- [Apollo-EnvHealthChecker-1] c.c.f.a.portal.component.PortalSettings  : Env health check failed, maybe because of admin server down. env: DEV, meta server address: http://10.30.44.208:8080
+2022-05-21 07:59:08.777 ERROR 2702 --- [Apollo-EnvHealthChecker-1] c.c.f.a.portal.component.PortalSettings  : Env is down because health check failed for 2 times, which equals to down threshold. env: DEV, meta server address: http://10.30.44.208:8080
+2022-05-21 08:55:09.740  WARN 2702 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=56m28s18ms).
+2022-05-21 08:55:10.632  INFO 2702 --- [Apollo-EnvHealthChecker-1] o.apache.http.impl.execchain.RetryExec   : I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {}->http://10.30.44.208:8090: The target server failed to respond
+2022-05-21 08:55:13.498  INFO 2702 --- [Apollo-EnvHealthChecker-1] o.apache.http.impl.execchain.RetryExec   : Retrying request to {}->http://10.30.44.208:8090
+2022-05-21 08:55:13.948  INFO 2702 --- [Apollo-EnvHealthChecker-1] c.c.f.a.portal.component.PortalSettings  : Env revived because env health check success. env: DEV
+2022-05-21 18:03:37.897  WARN 2702 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=9h7m57s341ms).
+2022-05-21 18:36:36.006  WARN 2702 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Retrograde clock change detected (housekeeper delta=27s769ms), soft-evicting connections from pool.
+2022-05-21 19:22:36.393  WARN 2702 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Retrograde clock change detected (housekeeper delta=29s779ms), soft-evicting connections from pool.
+2022-05-21 20:56:34.007  WARN 2702 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=54s215ms).
+2022-05-21 21:14:27.471  WARN 2702 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=17m23s403ms).
+2022-05-21 21:14:33.066  INFO 2702 --- [Thread-8] ConfigServletWebServerApplicationContext : Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@4dcb8440: startup date [Fri May 20 15:50:32 CST 2022]; root of context hierarchy
+2022-05-21 21:14:33.517  INFO 2702 --- [Thread-8] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
+2022-05-21 21:14:33.526  INFO 2702 --- [Thread-8] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans
+2022-05-21 21:14:33.584  INFO 2702 --- [Thread-8] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-05-21 21:14:33.649  INFO 2702 --- [Thread-8] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-05-21 21:14:33.722  INFO 2702 --- [Thread-8] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-05-21 21:14:34.911  INFO 2702 --- [Apollo-EnvHealthChecker-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2022-05-21 21:14:35.041  INFO 2702 --- [Apollo-EnvHealthChecker-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
